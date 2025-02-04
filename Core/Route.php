@@ -4,7 +4,7 @@ namespace Core;
  * The routes class is used by entrypoint, it is used to process incoming web requests and
  * it returns the template of the corresponding page needed
 */
-class Route implements \Interfaces\Routes {
+class Route {
     /**
      * @var array global variable / class variable used to store all controllers
      */

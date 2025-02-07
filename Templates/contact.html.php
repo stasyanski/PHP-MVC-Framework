@@ -7,8 +7,8 @@ Main output for contact page
 <article>
     <h2><?=$title;?></h2>
     <p>You can contact us via the following communication channels:</p>
-    <p> • Email: enquiries@northamptonnews.com</p>
-    <p> • Telephone: 01604 112 112</p>
+    <p> • Email: enquiries@website.com</p>
+    <p> • Telephone: 07488888888</p>
     <?php
     /**
      * This code contains the contant form

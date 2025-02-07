@@ -1,0 +1,322 @@
+/* Import website font */
+@import url('https://stockfont.org/?ab633278e88bacf97a07db1e7dc314a31728bf576faeff760007d673038415d3');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul ul {
+    overflow: hidden;
+    position: absolute;
+    background-color: #4A4E69;
+    width: 200px;
+    margin-left: 20px;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+nav li:hover ul {
+    max-height: 500px;
+}
+
+nav ul ul li {
+    float: none;
+    width: auto;
+}
+
+html {
+    font-family: 'Oxygen-Regular', times, verdana, sans-serif;
+}
+
+body {
+    background-color: #F8F8F8;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #22223B;
+    color: #F2E9E4;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid #4A4E69;
+}
+
+nav {
+    width: 100%;
+    background-color: #4A4E69;
+    overflow: auto;
+}
+
+nav ul {
+    width: 1000px;
+    margin: auto;
+    display: block;
+    list-style-type: none;
+}
+
+nav ul li {
+    width: 16.66%;
+    float: left;
+    overflow: auto;
+    text-align: center;
+}
+
+nav a {
+    color: #F2E9E4;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(242, 233, 228, 0.2);
+}
+
+header section {
+    display: block;
+}
+
+header h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 4em;
+    color: #F2E9E4;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+main {
+    min-height: 50vh;
+    background-color: #EDEAE0;
+    width: 70vw;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2em;
+    color: #4A4E69;
+    margin-bottom: 1em;
+}
+
+.home {
+    padding: 5vw;
+    width: 60vw;
+}
+
+p, li, h2 {
+    margin-bottom: 1em;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+pre {
+    margin-top: 20px;
+    background-color: #E3E4DB;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+code {
+    background-color: #E3E4DB;
+}
+
+pre code {
+    display: block;
+}
+
+footer {
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    padding: 15px;
+    text-align: center;
+    border-top: 5px solid #22223B;
+}
+
+form {
+    padding-top: 2em;
+    margin-top: 2em;
+    border-top: 1px solid #888;
+}
+
+form select,
+form label,
+form input,
+form textarea {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+form label {
+    clear: left;
+}
+
+textarea {
+    height: 100px;
+}
+
+form input[type="text"],
+form input[type="password"],
+textarea {
+    color: #555;
+    font-family: verdana, sans-serif;
+}
+
+input[type="submit"] {
+    clear: both;
+    margin-left: 220px;
+    width: 220px;
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #22223B;
+    transform: translateY(-2px);
+}
+
+section a {
+    color: #4A4E69;
+}
+
+form select {
+    width: 220px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.jobs {
+    list-style-type: none;
+}
+
+.jobs strong {
+    width: 150px;
+    float: left;
+    clear: left;
+}
+
+.jobs p {
+    width: 500px;
+    float: left;
+}
+
+.jobs li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #aaa;
+    overflow: auto;
+}
+
+.jobs a {
+    float: right;
+    clear: both;
+    color: #4A4E69;
+}
+
+img.shop {
+    width: 800px;
+    border-radius: 8px;
+}
+
+.stock, .admin {
+    display: table;
+}
+
+.stock > ul,
+.admin .left {
+    width: 10vw;
+    list-style-type: none;
+    display: table-cell;
+    padding: 10px;
+    background-color: #4A4E69;
+    margin: 0;
+}
+
+.stock .products,
+.admin .right {
+    display: table-cell;
+    padding: 20px;
+}
+
+.stock > ul a,
+.admin .left a {
+    color: #F2E9E4;
+}
+
+table td input[type="submit"] {
+    margin: 0;
+    float: right;
+    width: auto;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 2em;
+}
+
+body > img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+main {
+    display: table;
+}
+
+main > article {
+    display: table-cell;
+    padding: 2em;
+}
+
+main > nav {
+    display: table-cell;
+    width: 20%;
+    padding: 2em;
+}
+
+main > nav li {
+    float: none;
+    width: auto;
+    text-align: left;
+}
+
+main > nav ul {
+    width: auto;
+}
